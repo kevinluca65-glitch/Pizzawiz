@@ -83,7 +83,7 @@
       <div class="logo">🍕</div>
       <h1>Pizzawiz Privacy Policy</h1>
     </header>
-    <p class="updated">Effective date: September 27, 2026</p>
+    <p class="updated">Effective date: October 8, 2026</p>
 
     <p>
       Pizzawiz ("Pizzawiz", "we", "us") is a mobile app for tracking the pizzerias
@@ -111,13 +111,35 @@
         you're using the app for these features.
       </li>
       <li>
+        <strong>Map locations you pick.</strong> When you add a pizzeria or
+        suggest an address change, you place a pin on a map and may type an
+        address; we store the address and pin location you submit.
+      </li>
+      <li>
         <strong>Photos.</strong> Photos you choose to attach to a check-in, taken
         with your camera or selected from your photo library. We only access photos
         you explicitly choose to share.
       </li>
       <li>
-        <strong>User content.</strong> Check-in notes, ratings, and any corrections
-        you submit through "Suggest an Edit" for a pizzeria's information.
+        <strong>User content.</strong> Check-in notes, ratings, pizzerias you add,
+        and any corrections you submit through "Suggest an Edit" for a pizzeria's
+        information (such as phone number, opening hours, or address).
+      </li>
+      <li>
+        <strong>Business claim information.</strong> If you claim a pizzeria you
+        run, we collect the name, position, and contact phone number you enter
+        and, for video verification, a short video you record. This is used only
+        to verify your claim (for mail verification, to post a letter with a
+        code to the pizzeria's listed address).
+      </li>
+      <li>
+        <strong>Push notifications and in-app notifications.</strong> If you turn
+        on push notifications, we store a push token that identifies your device
+        with the notification service, along with your app language, so we can tell
+        you when something you submitted has been reviewed. You can turn this off
+        in Profile at any time, and signing out removes the token from your
+        account. Notifications about your submissions are also shown in the app
+        and kept for 60 days.
       </li>
       <li>
         <strong>Advertising identifiers.</strong> Unless you're a VIP member
@@ -139,7 +161,8 @@
       <li>To operate core features: check-ins, your passport, and stats</li>
       <li>To verify check-ins by comparing your location to the pizzeria's address</li>
       <li>To sync your data across your devices when you're signed in</li>
-      <li>To improve the accuracy of pizzeria information, using edit suggestions</li>
+      <li>To improve the accuracy of pizzeria information, using edit suggestions and pizzerias added by users</li>
+      <li>To review business claims and notify you of review results</li>
       <li>To generate the shareable image when you choose to share a check-in</li>
     </ul>
 
@@ -149,6 +172,15 @@
       <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase</a>,
       our backend and database provider. If you sign in with Google or Apple, those
       companies process your sign-in according to their own privacy policies.
+      Maps are drawn with <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>
+      data; when you view a map, OpenStreetMap's servers receive your device's
+      IP address to deliver map tiles. When you type an address or place a pin
+      while adding a pizzeria or suggesting an edit, that address or location is
+      sent to OpenStreetMap's Nominatim service to find the matching location
+      and an English address. Push notifications are delivered through
+      <a href="https://expo.dev/privacy" target="_blank" rel="noopener">Expo</a>'s
+      push service together with Apple Push Notification service (iOS) or
+      Google Firebase Cloud Messaging (Android).
       Unless you're a VIP member, ads are served through
       <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google AdMob</a>,
       which may use your advertising identifier to select ads to show you.
